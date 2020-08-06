@@ -1,0 +1,10 @@
+.position {
+  height: 100vh;
+  display: block;
+}
+
+.form {
+  border: 5px double black;
+  width: 70%;
+  padding: 20px;
+}

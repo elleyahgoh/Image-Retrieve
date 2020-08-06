@@ -1,0 +1,12 @@
+
+# HTID:14974788: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:14974788:
+RewriteEngine On
+RewriteRule ^/?$ index.php
+RewriteRule ^meme/?$ index.php
+RewriteRule ^meme/all/?$ rest-api.php?all
+RewriteRule ^meme/id/([0-9]+)?$ rest-api.php?id=$1
+RewriteRule ^meme/page/([0-9]+)?$ rest-api.php?page=$1
+RewriteRule ^meme/popular/?$ rest-api.php?popular
+RewriteRule ^meme/create/?$ create.php
